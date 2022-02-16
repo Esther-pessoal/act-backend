@@ -1,4 +1,4 @@
-export interface MailSender {
+export interface IMailSender {
   send(mailConfig: MailConfig): void;
 }
 type MailConfig = {
